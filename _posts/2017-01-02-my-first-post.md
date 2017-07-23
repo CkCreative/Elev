@@ -1,6 +1,7 @@
 ---
 title: My First Post
-layout: default
+layout: posts
+permalink: /:title.html
 ---
 
 Some sample content...
