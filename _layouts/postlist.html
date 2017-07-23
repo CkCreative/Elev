@@ -1,13 +1,24 @@
 ---
 layout: posts
 ---
+	{{ content }}
 
-{{ content }}
-<ul class="myposts">
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-           {{ post.excerpt }}
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>
+		{% for post in site.posts %}
+			<div class="entry clearfix">
+				<div class="entry-title">
+					<h2><a href="{{ post.url }}">{{ post.title}}</a>
+					</h2>
+				</div>
+				<div class="entry-meta li clearfix">{{ post.date | date: "%b %-d, %Y" }}
+				</div> 
+				<div class="entry-content">
+					<p>
+					{% if post.excerpt %}
+					{{ post.excerpt }}
+					{% endif %}
+					</p>
+					<a href="{{ post.url }}"class="more-link">Read More</a>
+				</div>
+			</div>
+		{% endfor %}
+
