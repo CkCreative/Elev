@@ -356,7 +356,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-caption:not(.dark),
 .slider-caption:not(.dark) h2 {
-	color: #222;
+	color: #091e42;
 	text-shadow: none;
 }
 

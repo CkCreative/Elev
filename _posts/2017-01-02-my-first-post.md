@@ -1,6 +1,6 @@
 ---
 title: My First Post
-layout: posts
+layout: singlepost
 permalink: /:title.html
 ---
 

@@ -3,9 +3,9 @@
 	Dark - timepicker.css
 ======================================================================== */
 .dark .bootstrap-datetimepicker-widget.dropdown-menu.bottom:before { border-bottom: 7px solid #444; }
-.dark .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after { border-bottom-color: #222; }
+.dark .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after { border-bottom-color: #091e42; }
 .dark .bootstrap-datetimepicker-widget.dropdown-menu.top:before { border-top-color: #DDD; }
-.dark .bootstrap-datetimepicker-widget.dropdown-menu.top:after { border-top-color: #222; }
+.dark .bootstrap-datetimepicker-widget.dropdown-menu.top:after { border-top-color: #091e42; }
 .dark .bootstrap-datetimepicker-widget table th.disabled,
 .dark .bootstrap-datetimepicker-widget table th.disabled:hover { color: #AAA; }
 .dark .bootstrap-datetimepicker-widget table thead tr:first-child th:hover { background: #444; }
@@ -17,12 +17,12 @@
 .dark .bootstrap-datetimepicker-widget table td.old,
 .dark .bootstrap-datetimepicker-widget table td.new { color: #AAA; }
 .dark .bootstrap-datetimepicker-widget table td.active,
-.dark .bootstrap-datetimepicker-widget table td.active:hover { color: #222; }
-.dark .bootstrap-datetimepicker-widget table td.active.today:before { border-bottom-color: #222; }
+.dark .bootstrap-datetimepicker-widget table td.active:hover { color: #091e42; }
+.dark .bootstrap-datetimepicker-widget table td.active.today:before { border-bottom-color: #091e42; }
 .dark .bootstrap-datetimepicker-widget table td.disabled,
 .dark .bootstrap-datetimepicker-widget table td.disabled:hover { color: #AAA; }
 .dark .bootstrap-datetimepicker-widget table td span:hover { background: #444; }
-.dark .bootstrap-datetimepicker-widget table td span.active { color: #222; }
+.dark .bootstrap-datetimepicker-widget table td span.active { color: #091e42; }
 .dark .bootstrap-datetimepicker-widget table td span.old { color: #AAA; }
 .dark .bootstrap-datetimepicker-widget table td span.disabled,
 .dark .bootstrap-datetimepicker-widget table td span.disabled:hover { color: #AAA; }
@@ -175,7 +175,7 @@
 
 /* style-3 */
 .dark .checkbox-style:checked + .checkbox-style-3-label:before,
-.dark .radio-style:checked + .radio-style-3-label:before { color: #222; }
+.dark .radio-style:checked + .radio-style-3-label:before { color: #091e42; }
 .dark .radio-style:checked + .radio-style-3-label:before {
 	color: #CCC;
 	border-color: #CCC;
@@ -205,7 +205,7 @@
 /*========================================================================
 	daterangepicker.css
  ======================================================================== */
-.dark .daterangepicker {  background: #222; }
+.dark .daterangepicker {  background: #091e42; }
 
 .dark .daterangepicker.opensleft:before {
 	border-bottom-color: #444;
@@ -224,7 +224,7 @@
 }
 
 .dark .daterangepicker.openscenter:after {
-	border-bottom-color: #222;
+	border-bottom-color: #091e42;
 	border-left-color: transparent;
 }
 
@@ -235,22 +235,22 @@
 }
 
 .dark .daterangepicker.opensright:after {
-	border-bottom-color: #222;
+	border-bottom-color: #091e42;
 	border-left-color: transparent;
 }
 
 .dark .daterangepicker.dropup:before{ border-top-color: #444; }
 
-.dark .daterangepicker.dropup:after{ border-top-color: #222; }
+.dark .daterangepicker.dropup:after{ border-top-color: #091e42; }
 
 .dark .daterangepicker .calendar-table {
 	border-color: #444;
-	background: #222;
+	background: #091e42;
 }
 
 .dark .daterangepicker td.off, .dark .daterangepicker td.off.in-range, .dark .daterangepicker td.off.start-date, .dark .daterangepicker td.off.end-date {
 	color: #999;
-	background: #222;
+	background: #091e42;
 }
 
 .dark .daterangepicker td.disabled, .dark .daterangepicker option.disabled { color: #999; }
@@ -298,7 +298,7 @@
 }
 
 .dark .input-daterange .input-group-addon {
-	background-color: #222;
+	background-color: #091e42;
 	border-color: #111;
 	text-shadow: none;
 }
@@ -314,7 +314,7 @@
 
 .dark .bootstrap-switch .bootstrap-switch-label {
 	color: #EEE;
-	background: #222;
+	background: #091e42;
 }
 
 .dark .bootstrap-switch-label:after {
@@ -327,7 +327,7 @@
 .dark input.switch-toggle-round + label { background-color: #444; }
 
 .dark input.switch-toggle-round + label:before,
-.dark input.switch-toggle-flat + label:before { background-color: #222; }
+.dark input.switch-toggle-flat + label:before { background-color: #091e42; }
 
 .dark input.switch-toggle-flat + label,
 .dark input.switch-toggle-flat + label:after { background-color: #AAA; }

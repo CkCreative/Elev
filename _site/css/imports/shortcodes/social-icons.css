@@ -235,7 +235,7 @@ body:not(.device-touch) .social-icon i {
 .si-googleplay:hover,
 .si-colored.si-googleplay { background-color: #DD4B39 !important; }
 .si-itunes:hover,
-.si-colored.si-itunes { background-color: #222 !important; }
+.si-colored.si-itunes { background-color: #091e42 !important; }
 .si-plurk:hover,
 .si-colored.si-plurk { background-color: #CF5A00 !important; }
 .si-pinboard:hover,
@@ -291,7 +291,7 @@ body:not(.device-touch) .social-icon i {
 .si-disqus:hover,
 .si-colored.si-disqus { background-color: #E4E7EE !important; }
 .si-plancast:hover,
-.si-colored.si-plancast { background-color: #222 !important; }
+.si-colored.si-plancast { background-color: #091e42 !important; }
 .si-appstore:hover,
 .si-colored.si-appstore { background-color: #000 !important; }
 .si-pinterest:hover,
@@ -346,7 +346,7 @@ body:not(.device-touch) .social-icon i {
 .si-text-color.si-ebay i { color: #89C507; }
 .si-text-color.si-github i { color: #171515; }
 .si-text-color.si-googleplay i { color: #DD4B39; }
-.si-text-color.si-itunes i { color: #222; }
+.si-text-color.si-itunes i { color: #091e42; }
 .si-text-color.si-plurk i { color: #CF5A00; }
 .si-text-color.si-pinboard i { color: #0000E6; }
 .si-text-color.si-soundcloud i { color: #FF7700; }
@@ -374,7 +374,7 @@ body:not(.device-touch) .social-icon i {
 .si-text-color.si-steam i { color: #111; }
 .si-text-color.si-amazon i { color: #E47911; }
 .si-text-color.si-disqus i { color: #E4E7EE; }
-.si-text-color.si-plancast i { color: #222; }
+.si-text-color.si-plancast i { color: #091e42; }
 .si-text-color.si-appstore i { color: #000; }
 .si-text-color.si-pinterest i { color: #C8232C; }
 .si-text-color.si-fivehundredpx i { color: #111; }

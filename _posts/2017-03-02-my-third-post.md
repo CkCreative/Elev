@@ -1,6 +1,6 @@
 ---
 title: My Third Post
-layout: posts
+layout: singlepost
 permalink: /:title.html
 
 ---
