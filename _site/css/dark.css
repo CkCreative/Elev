@@ -318,7 +318,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .not-dark .slider-caption,
 .not-dark .slider-caption h2 {
-	color: #222;
+	color: #091e42;
 	text-shadow: none;
 }
 
@@ -334,7 +334,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .not-dark .ei-title h3,
 .not-dark .ei-title h2 span,
 .not-dark .ei-title h3 span {
-	color: #222 !important;
+	color: #091e42 !important;
 	text-shadow: none;
 }
 

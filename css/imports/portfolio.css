@@ -225,7 +225,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 	font-size: 19px;
 }
 
-.portfolio-desc h3 a { color: #222; }
+.portfolio-desc h3 a { color: #091e42; }
 
 .portfolio-desc h3 a:hover { color: #1ABC9C; }
 
