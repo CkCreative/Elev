@@ -8,20 +8,42 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Fira+Sans:400,700|Montserrat:400,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/style.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost:4000/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="http://localhost:4000/css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
 	============================================= -->
-	<title>My Fourth Post | Elevate Business</title>
+	<title>Contact - Layout 5 | Canvas</title>
+
+<style>
+.sticky-side-element {
+	position: fixed;
+	top: 50%;
+	margin-top: -24px;
+	left: auto;
+	right: -31px;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 15px;
+	background-color: #EEE;
+	color: #091e42;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+</style>
 
 </head>
 
@@ -44,8 +66,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="http://localhost:4000/images/logo-dark.png"><img src="http://localhost:4000/images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="http://localhost:4000/images/logo-dark@2x.png"><img src="http://localhost:4000/images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -53,7 +75,7 @@
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="index"><div>Home</div><span>Welcome!</span></a>
+							<li ><a href="index"><div>Home</div><span>Welcome!</span></a>
 								
 							</li>
 							<li><a href="/about"><div>About</div><span>Who we are</span></a>
@@ -62,7 +84,7 @@
 							<li class="mega-menu"><a href="/blog"><div>Blog</div><span>Must read</span></a>
 								
 							</li>
-							<li class="mega-menu"><a href="/contact"><div>Contact Us</div><span>Lets talk</span></a>
+							<li class="mega-menu current"><a href="/contact"><div>Contact Us</div><span>Lets talk</span></a>
 								
 							
 						</ul>
@@ -80,7 +102,7 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('http://localhost:4000/images/slider/swiper/1.jpg');">
+						<div class="swiper-slide dark" style="background-image: url('/images/slider/swiper/1.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">ELEVATE YOUR BUSINESS</h2>
@@ -96,14 +118,14 @@
 								</div>
 							</div>
 							<div class="video-wrap">
-								<video poster="http://localhost:4000/images/videos/explore.jpg" preload="auto" loop autoplay muted>
-									<source src='http://localhost:4000/images/videos/explore.mp4' type='video/mp4' />
-									<source src='http://localhost:4000/images/videos/explore.webm' type='video/webm' />
+								<video poster="/images/videos/explore.jpg" preload="auto" loop autoplay muted>
+									<source src='/images/videos/explore.mp4' type='video/mp4' />
+									<source src='/images/videos/explore.webm' type='video/webm' />
 								</video>
 								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('http://localhost:4000/images/slider/swiper/3.jpg'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('/images/slider/swiper/3.jpg'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Strong Footprint</h2>
@@ -120,64 +142,48 @@
 			</div>
 
 		</section>
-
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
 			<div class="content-wrap">
 
-				
+				<div class="container clearfix">
 
-				<div style="background: #ffffff;">
+					<!-- Google Map
+					============================================= -->
+					<div class="col-md-8 bottommargin">
 
-	<div class="container clearfix" style="width: 700px; font-size: 18px; line-height: 1.9444; font-family: 'Montserrat', sans-serif; padding: 0px;">
+						<section id="google-map" class="gmap" style="height: 240px;"></section>
 
-		<div class="heading-block title-center nobottomborder">
-			<h2></h2>
-		</div>
+					</div><!-- Google Map End -->
 
-		<div class="tleft">
-			<h1>This is a Great Heading</h1>
+					<div class="col-md-4">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.<!--more--></p>
+						<!-- Contact Info
+						============================================= -->
+						<div class="center">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
+							<address>
+							<h4>Address</h4>
+						 		<strong>Headquarters:</strong><br>
+								795 Folsom Ave, Suite 600<br>
+								San Francisco, CA 94107<br>
+							</address>
+							<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+							<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+							<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
+						</div><!-- Contact Info End -->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
+						<!-- Testimonials
+						============================================= -->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
+					</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.doloribus.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
-
-<div class="clearfix">
-
-	<div class="col_half tleft"><a href="/my-third-post.html" data-animate="tada" class="button button-border button-xlarge nobottommargin"><i class="icon-line-arrow-left"></i>My Third Post</a> 
-	</div>
-
-
-</div>
-
-		</div>
-
-	</div>
-
-</div>
-
+				</div>
 
 			</div>
-
-				<div class="promo promo-dark promo-flat promo-full topmargin" style="margin-bottom: 0px;">
-					<div class="container clearfix">
-						<h3>Call us today on <span>(+254) 7 7309 7500</span> or Email us at <span>support@ckcreative.co.ke</span></h3>
-						<span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
-						<a href="#" class="button button-xlarge button-rounded">Ge a Quote</a>
-					</div>
-				</div>
 
 		</section><!-- #content end -->
 
@@ -197,18 +203,19 @@
 
 							<div class="widget clearfix">
 
-								<img src="http://localhost:4000/images/footer-widget-logo.png" alt="" class="footer-logo">
+								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
 
-								<p>You need a <strong>Forward</strong>, <strong>Thinking</strong> &amp; <strong>Brand</strong></p>
+								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
-								<div style="background: url('http://localhost:4000/images/world-map.png') no-repeat center center; background-size: 100%;">
+								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
 									<address>
 										<strong>Headquarters:</strong><br>
-										Moi Avenue<br>
-										Mombasa, 80100<br>
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
 									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+254) 7 7309 7500<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@ckcreative.co.ke
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
 								</div>
 
 							</div>
@@ -284,48 +291,44 @@
 
 					<div class="col_one_third col_last">
 
-						<div class="widget clearfix" style="margin-bottom: -20px;">
 
-							<div class="row">
+						<div class="widget subscribe-widget clearfix">
+							<h4>Contact Us</h4>
+							<div class="widget-subscribe-form-result"></div>
+							<form class="nobottommargin" id="template-contactform" name="ContactUs" action="http://formspree.io/mikeck93@gmail.com" method="post">
 
-								<div class="col-md-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Total Downloads</h5>
-								</div>
+												<div class="form-process"></div>
 
-								<div class="col-md-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Clients</h5>
-								</div>
+												<div class="col_half">
+													<label for="template-contactform-name">Name <small>*</small></label>
+													<input type="text" id="template-contactform-name" name="Name" value="" class="sm-form-control required" />
+												</div>
 
-							</div>
+												<div class="col_half col_last">
+													<label for="template-contactform-email">Email <small>*</small></label>
+													<input type="email" id="template-contactform-email" name="Email" value="" class="required email sm-form-control" />
+												</div>
 
+
+												<div class="clear"></div>
+
+												<div class="col_full">
+													<label for="template-contactform-subject">Subject <small>*</small></label>
+													<input type="text" id="template-contactform-subject" name="Subject" value="" class="required sm-form-control" />
+												</div>
+
+												<div class="col_full">
+													<label for="template-contactform-message">Message <small>*</small></label>
+													<textarea class="required sm-form-control" id="template-contactform-message" name="Message" rows="6" cols="30"></textarea>
+												</div>
+
+												<div class="col_full">
+													<button class="button button-3d nomargin" type="submit">Send Message</button>
+												</div>
+
+											</form>
 						</div>
 
-						
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-md-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-								</div>
-								<div class="col-md-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-								</div>
-
-							</div>
-
-						</div>
 
 					</div>
 
@@ -340,7 +343,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2017 All Rights Reserved by Ck Creative<br>
+						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
@@ -389,7 +392,7 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@ckcreative.co.ke <span class="middot">&middot;</span> <i class="icon-headphones"></i> +254-7-7309-7500
+						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
 					</div>
 
 				</div>
@@ -406,12 +409,68 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="http://localhost:4000/js/jquery.js"></script>
-	<script type="text/javascript" src="http://localhost:4000/js/plugins.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="http://localhost:4000/js/functions.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDMxJ92oBkSnVNHFX3R8XhtYQPEgk1_IiI"></script>
+	<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+	<script type="text/javascript">
+
+		$('#google-map').gMap({
+			address: 'Nairobi, Kenya',
+			maptype: 'ROADMAP',
+			zoom: 14,
+			markers: [
+				{
+					address: "Nairobi, Kenya",
+					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Welcome!, this is <span>Elevate</span></h4><p class="nobottommargin">We want to <strong>grow</strong> and <strong>elevate</strong> your business.</p></div>',
+					icon: {
+						image: "images/icons/map-icon-red.png",
+						iconsize: [32, 39],
+						iconanchor: [32,39]
+					}
+				}
+			],
+			doubleclickzoom: false,
+			controls: {
+				panControl: true,
+				zoomControl: true,
+				mapTypeControl: true,
+				scaleControl: false,
+				streetViewControl: false,
+				overviewMapControl: false
+			}
+		});
+
+	</script>
+	<script type="text/javascript">
+	var $contactForm = $('#template-contactform');
+$contactForm.submit(function(e) {
+	e.preventDefault();
+	$.ajax({
+		url: '//formspree.io/mikeck93@gmail.com',
+		method: 'POST',
+		data: $(this).serialize(),
+		dataType: 'json',
+		beforeSend: function() {
+			$contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+		},
+		success: function(data) {
+			$contactForm.find('.alert--loading').hide();
+			$contactForm.append('<div class="alert alert--success">Message sent!</div>');
+		},
+		error: function(err) {
+			$contactForm.find('.alert--loading').hide();
+			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+		}
+	});
+});
+</script>
 
 </body>
 </html>
