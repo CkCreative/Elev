@@ -15,9 +15,7 @@ permalink: /:title.html
 		{% if page.next.url %}
 	</div>
 	<div class="col_half col_last tright"> 
-		<div class="clearfix">
 			<a href="{{page.next.url}}" data-scrollto="#section-pricing" class="button button-border button-xlarge nobottommargin">{{page.next.title}}<i class="icon-line-arrow-right"></i></a>
-			{% endif %}
-		</div>
+{% endif %}
 	</div>
 </div>

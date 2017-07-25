@@ -3,3 +3,6 @@ title: Elevate Business
 root: https://CkCreative.github.io/
 permalink: pretty
 excerpt_separator: <!--more-->
+paginate: 3
+plugins: [jekyll-paginate]
+paginate_path: "/blog/page:num/"
