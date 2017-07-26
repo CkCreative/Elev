@@ -8,43 +8,21 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Fira+Sans:400,700|Montserrat:400,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="/css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="css/colors.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
 	============================================= -->
-	<title>Contact - Layout 5 | Canvas</title>
-
-<style>
-.sticky-side-element {
-	position: fixed;
-	top: 50%;
-	margin-top: -24px;
-	left: auto;
-	right: -31px;
-	height: 48px;
-	line-height: 48px;
-	padding: 0 15px;
-	background-color: #EEE;
-	color: #091e42;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 14px;
-	-webkit-transform: rotate(270deg);
-	-ms-transform: rotate(270deg);
-	-o-transform: rotate(270deg);
-	transform: rotate(270deg);
-}
-</style>
+	<title>Contact Us | Elevatika</title>
 
 </head>
 
@@ -67,8 +45,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="/images/logo-dark.png"><img src="/images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="/images/logo-dark@2x.png"><img src="/images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -76,16 +54,16 @@
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li ><a href="index"><div>Home</div><span>Welcome!</span></a>
+							<li><a href="/index"><div>Home</div><span>Welcome!</span></a>
 								
 							</li>
-							<li><a href="/about"><div>About</div><span>Who we are</span></a>
+							<li class="current"><a href="/about"><div>About</div><span>Who we are</span></a>
 								
 							</li>
 							<li class="mega-menu"><a href="/blog"><div>Blog</div><span>Must read</span></a>
 								
 							</li>
-							<li class="mega-menu current"><a href="/contact"><div>Contact Us</div><span>Lets talk</span></a>
+							<li class="mega-menu"><a href="/contact"><div>Contact Us</div><span>Lets talk</span></a>
 								
 							
 						</ul>
@@ -103,7 +81,7 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('/images/slider/swiper/1.jpg');">
+						<div class="swiper-slide dark" style="background-image: url('/images/slider/swiper/1.png');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">ELEVATE YOUR BUSINESS</h2>
@@ -111,22 +89,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide dark">
+						<div class="swiper-slide dark" style="background-image: url('/images/slider/swiper/2.png');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">RIGHT EVERY TIME</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">Elevate knows what makes businesses succeed online. This experience will expand and elevate your business exponentially. Guarantee: you will love us.</p>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">Elevatika knows what makes businesses succeed online. This experience will expand and elevate your business exponentially. Guarantee: you will love us.</p>
 								</div>
 							</div>
-							<div class="video-wrap">
-								<video poster="/images/videos/explore.jpg" preload="auto" loop autoplay muted>
-									<source src='/images/videos/explore.mp4' type='video/mp4' />
-									<source src='/images/videos/explore.webm' type='video/webm' />
-								</video>
-								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('/images/slider/swiper/3.jpg'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('/images/slider/swiper/3.png'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Strong Footprint</h2>
@@ -143,7 +114,8 @@
 			</div>
 
 		</section>
-		<!-- Content
+
+				<!-- Content
 		============================================= -->
 		<section id="content">
 
@@ -167,12 +139,13 @@
 
 							<address>
 							<h4>Address</h4>
-						 		<strong>Headquarters:</strong><br>
-								Lion Place, Westlands<br>
+						 		<strong>Offices:</strong><br>
+								Moi Avenue,<br>
 								Nairobi, 00200<br>
 							</address>
 							<abbr title="Phone Number"><strong>Phone:</strong></abbr> +254-7-7309-7500<br>
-							<abbr title="Email Address"><strong>Email:</strong></abbr> info@elevatika.com
+							<abbr title="Email Address"><strong>Email:</strong></abbr> info@elevatika.com<br>
+							<abbr title="Working Hours"><strong>Working Hours:</strong></abbr> 08:00-17:00 weekdays.
 
 						</div><!-- Contact Info End -->
 
@@ -197,32 +170,31 @@
 				============================================= --
 				<div class="footer-widgets-wrap clearfix">
 
-					<div class="col-md-8">
+					<div class="col_two_third">
 
-						<div class="col_half">
+						<div class="col_one_third">
 
 							<div class="widget clearfix">
 
-								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+								<img src="/images/footer-widget-logo.png" alt="" class="footer-logo">
 
-								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+								<p>You need a <strong>Forward</strong>, <strong>Thinking</strong> &amp; <strong>Brand</strong></p>
 
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+								<div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
 									<address>
 										<strong>Headquarters:</strong><br>
 										Moi Avenue<br>
 										Mombasa, 80100<br>
 									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> +254-7-7309-7500<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+254) 7 7309 7500<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@elevatika.com
 								</div>
 
 							</div>
 
 						</div>
 
-						<div class="col_half col_last">
+						<div class="col_one_third">
 
 							<div class="widget widget_links clearfix">
 
@@ -244,11 +216,54 @@
 
 						</div>
 
+						<div class="col_one_third col_last">
+
+							<div class="widget clearfix">
+								<h4>Recent Posts</h4>
+
+								<div id="post-list-footer">
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
 
 					</div>
 
-					<div class="col-md-4 col_last">
+					<div class="col_one_third col_last">
 
+						
 						<div class="widget subscribe-widget clearfix">
 							<h4>Contact Us</h4>
 							<div class="widget-subscribe-form-result"></div>
@@ -285,6 +300,7 @@
 
 											</form>
 						</div>
+						
 
 
 					</div>
@@ -349,7 +365,7 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +254-7-7309-7500
+						<i class="icon-envelope2"></i> info@elevatika.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +254-7-7309-7500
 					</div>
 
 				</div>
@@ -366,26 +382,22 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/plugins.js"></script>
 
-	<!-- Footer Scripts
+		<!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
-
-	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDMxJ92oBkSnVNHFX3R8XhtYQPEgk1_IiI"></script>
-	<script type="text/javascript" src="js/jquery.gmap.js"></script>
-
-	<script type="text/javascript">
+	<script type="text/javascript" src="/js/functions.js"></script>
+		<script type="text/javascript">
 
 		$('#google-map').gMap({
-			address: 'Nairobi, Kenya',
+			address: 'Mombasa, Kenya',
 			maptype: 'ROADMAP',
 			zoom: 14,
 			markers: [
 				{
 					address: "Nairobi, Kenya",
-					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Welcome!, this is <span>Elevate</span></h4><p class="nobottommargin">We want to <strong>grow</strong> and <strong>elevate</strong> your business.</p></div>',
+					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Welcome!, this is <span>Elevatika</span></h4><p class="nobottommargin">We want to <strong>grow</strong> and <strong>elevatika</strong> your business.</p></div>',
 					icon: {
 						image: "images/icons/map-icon-red.png",
 						iconsize: [32, 39],
