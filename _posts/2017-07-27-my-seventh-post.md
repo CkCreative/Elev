@@ -1,12 +1,10 @@
 ---
-title: My Third Post
+title: My 7th Post
 layout: singlepost
 permalink: /:title.html
-
 ---
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p><!--more-->
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
+<img src="/images/photo-1486688680290-be46662593bd.jpg">
+<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
 
 <div class="clearfix">
 {% if page.previous.url %}
@@ -19,3 +17,4 @@ permalink: /:title.html
 	</div>
 {% endif %}
 </div>
+<div class="fb-comments" data-href="http://elevatika.com/my-first-post" data-numposts="5"></div>

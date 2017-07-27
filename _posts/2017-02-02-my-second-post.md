@@ -10,12 +10,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores
 
 <div class="clearfix">
 {% if page.previous.url %}
-	<div class="col_half tleft"><a href="{{page.previous.url}}" data-animate="tada" class="button button-border button-xlarge nobottommargin"><i class="icon-line-arrow-left"></i>Previous Post</a> 
+	<div class="col_half tleft"><a href="{{page.previous.url}}" data-animate="tada" class="button button-border button-xlarge nobottommargin"><i class="icon-line-arrow-left"></i><span>Previous Post</span></a> 
 	</div>
 {% endif %}
 {% if page.next.url %}
 	<div class="col_half col_last tright">
-		<a href="{{page.next.url}}" data-scrollto="#section-pricing" class="button button-border button-xlarge nobottommargin">Next Post<i class="icon-line-arrow-right"></i></a>
+		<a href="{{page.next.url}}" data-scrollto="#section-pricing" class="button button-border button-xlarge nobottommargin">Next Post<span><i class="icon-line-arrow-right"></i></span></a>
 	</div>
 {% endif %}
 </div>

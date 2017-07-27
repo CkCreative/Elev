@@ -1,3 +1,46 @@
+<?php
+
+header ("Content-Type:text/css");
+
+/** ===============================================================
+ *
+ *      Edit your Color Configurations below:
+ *      You should only enter 6-Digits HEX Colors.
+ *
+ ================================================================== */
+
+$color = "#1ABC9C"; // Change your Color Here
+
+/** ===============================================================
+ *
+ *      Do not Edit anything below this line if you do not know
+ *      what you are trying to do..!
+ *
+ ================================================================== */
+
+function checkhexcolor($color) {
+
+    return preg_match('/^#[a-f0-9]{6}$/i', $color);
+
+}
+
+/** ===============================================================
+ *
+ *      Primary Color Scheme
+ *
+ ================================================================== */
+
+if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
+    $color = "#" . $_GET[ 'color' ];
+}
+
+if( !$color OR !checkhexcolor( $color ) ) {
+    $color = "#1ABC9C";
+}
+
+?>
+
+
 /* ----------------------------------------------------------------
     Colors
 
@@ -5,11 +48,11 @@
 -----------------------------------------------------------------*/
 
 
-::selection { background: #091e42; }
+::selection { background: <?php echo $color; ?>; }
 
-::-moz-selection { background: #091e42; }
+::-moz-selection { background: <?php echo $color; ?>; }
 
-::-webkit-selection { background: #091e42; }
+::-webkit-selection { background: <?php echo $color; ?>; }
 
 
 a,
@@ -54,7 +97,7 @@ h6 > span:not(.nocolor),
 .pricing-box.best-price .pricing-price,
 .btn-link,
 .dark .post-timeline .entry:hover .entry-timeline,
-.dark .post-timeline .entry:hover .timeline-divider { color: #091e42; }
+.dark .post-timeline .entry:hover .timeline-divider { color: <?php echo $color; ?>; }
 
 .color,
 #primary-menu ul ul li:hover > a,
@@ -67,10 +110,7 @@ h6 > span:not(.nocolor),
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a,
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a,
 .overlay-menu #primary-menu.dark > ul > li:hover > a,
-.overlay-menu #primary-menu.dark > ul > li.current > a,
-.nav-tree li:hover > a,
-.nav-tree li.current > a,
-.nav-tree li.active > a { color: #091e42 !important; }
+.overlay-menu #primary-menu.dark > ul > li.current > a { color: <?php echo $color; ?> !important; }
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -108,7 +148,7 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .dark .i-circled:hover,
 .dark ul.tab-nav.tab-nav2 li.ui-state-active a,
 .dark .tagcloud a:hover,
-.ei-slider-thumbs li.ei-slider-element { background-color: #071327; }
+.ei-slider-thumbs li.ei-slider-element { background-color: <?php echo $color; ?>; }
 
 .bgcolor,
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover,
@@ -122,7 +162,7 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus { background-color: #091e42 !important; }
+.pagination > .active > span:focus { background-color: <?php echo $color; ?> !important; }
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
@@ -136,7 +176,7 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
 .dark .cart-product-thumbnail img:hover,
-.heading-block.border-color:after { border-color: #091e42; }
+.heading-block.border-color:after { border-color: <?php echo $color; ?>; }
 
 .top-links ul ul,
 .top-links ul div.top-link-section,
@@ -152,13 +192,12 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 #primary-menu.dark ul li .mega-menu-content,
 .dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2,
 #primary-menu.dark ul li .mega-menu-content.style-2,
-.dark #top-cart .top-cart-content,
-.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a { border-top-color: #091e42; }
+.dark #top-cart .top-cart-content { border-top-color: <?php echo $color; ?>; }
 
 #page-menu.dots-menu nav li .dots-menu-caption:after,
-.title-block { border-left-color: #091e42; }
+.title-block { border-left-color: <?php echo $color; ?>; }
 
-.title-block-right { border-right-color: #091e42; }
+.title-block-right { border-right-color: <?php echo $color; ?>; }
 
 .fancy-title.title-bottom-border h1,
 .fancy-title.title-bottom-border h2,
@@ -166,8 +205,7 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .fancy-title.title-bottom-border h4,
 .fancy-title.title-bottom-border h5,
 .fancy-title.title-bottom-border h6,
-.more-link,
-.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: #0049b0; }
+.more-link { border-bottom-color: <?php echo $color; ?>; }
 
 .border-color,
 .process-steps li.active a,
@@ -178,15 +216,15 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus { border-color: #091e42 !important; }
+.pagination > .active > span:focus { border-color: <?php echo $color; ?> !important; }
 
 .fbox-effect.fbox-dark .fbox-icon i:after,
-.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #091e42; }
+.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px <?php echo $color; ?>; }
 
 .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #091e42; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px <?php echo $color; ?>; }
 
 
 @media only screen and (max-width: 991px) {
@@ -197,15 +235,15 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
     body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a,
     #primary-menu ul ul li:hover > a,
     #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
-    #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #091e42 !important; }
+    #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: <?php echo $color; ?> !important; }
 
-    #page-menu nav { background-color: #091e42; }
+    #page-menu nav { background-color: <?php echo $color; ?>; }
 
 }
 
 
 @media only screen and (max-width: 767px) {
 
-    #portfolio-filter li a:hover { color: #091e42; }
+    #portfolio-filter li a:hover { color: <?php echo $color; ?>; }
 
 }

@@ -3,22 +3,39 @@ layout: posts
 ---
 {{ content }}
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="entry clearfix">
-	<div class="entry-title">
-		<h2><a href="{{ post.url }}">{{ post.title}}</a>
-		</h2>
-	</div>
-	<div class="entry-meta li clearfix">{{ post.date | date: "%b %-d, %Y" }}
-	</div> 
-	<div class="entry-content">
-		<p>
-			{% if post.excerpt %}
-			{{ post.excerpt | strip_html}}
-			{% endif %}
-		</p>
-		<a href="{{ post.url }}" class="button button-border button-xlarge nobottommargin">Read More</a>
-	</div>
+  <div class="entry-title">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title}}</a>
+    </h2>
+  </div>
+  <div class="entry-meta li clearfix">{{ post.date | date: "%b %-d, %Y" }}
+  </div> 
+  <div class="entry-content">
+    <p>
+      {% if post.excerpt %}
+      {{ post.excerpt | strip_html}}
+      {% endif %}
+    </p>
+    <a href="{{ post.url | relative_url }}" class="button button-border button-xlarge nobottommargin">Read More</a>
+  </div>
 </div>
 {% endfor %}
 
+<!-- Pagination links -->
+
+{% if paginator.total_pages > 1 %}
+<div class="container clearfix center">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-border button-xlarge nobottommargin"><i class="icon-line-arrow-left"></i> Previous</a>
+  {% else %}
+    <span class="previous"></span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-border button-xlarge nobottommargin">Next <i class="icon-line-arrow-right"></i></a>
+  {% else %}
+    <span class="next "></span>
+  {% endif %}
+</div>
+{% endif %}

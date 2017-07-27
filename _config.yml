@@ -3,6 +3,16 @@ title: Elevatica Enterprises
 root: https://CkCreative.github.io/
 permalink: pretty
 excerpt_separator: <!--more-->
-paginate: 3
-plugins: [jekyll-paginate]
-paginate_path: "/blog/page:num/"
+gems:
+  - jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
