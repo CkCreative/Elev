@@ -17,3 +17,4 @@ permalink: /:title.html
 	</div>
 {% endif %}
 </div>
+<div class="fb-comments" data-href="http://elevatika.com/my-first-post" data-numposts="5"></div>
