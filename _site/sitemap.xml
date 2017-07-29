@@ -4,33 +4,40 @@
 
   
 	
-  <url><loc>http://localhost:4000/about/</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/about/</loc></url>
 	 
   
 	
-  <url><loc>http://localhost:4000/contact/</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/contact/</loc></url>
 	 
   
 	
-  <url><loc>http://localhost:4000/</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/</loc></url>
 	 
   
 	
   
 	
-  <url><loc>http://localhost:4000/blog/index.html</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/blog/index.html</loc></url>
 	 
   
 	
-  <url><loc>http://localhost:4000/blog/page/2/index.html</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/blog/page/2/index.html</loc></url>
 	 
   
 	
-  <url><loc>http://localhost:4000/blog/page/3/index.html</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/blog/page/3/index.html</loc></url>
 	 
   
 	
-  <url><loc>http://localhost:4000/blog/page/4/index.html</loc></url>
+  <url><lastmod></lastmod>
+  <loc>http://localhost:4000/blog/page/4/index.html</loc></url>
 	 
   
 	

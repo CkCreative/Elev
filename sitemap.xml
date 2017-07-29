@@ -8,7 +8,8 @@ sitemap: false
 
   {% for page in site.pages %}
 	{% if page.sitemap != false %}
-  <url><loc>{{ site.url }}{{ page.url }}</loc></url>
+  <url><lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+  <loc>{{ site.url }}{{ page.url }}</loc></url>
 	 {% endif %}
   {% endfor %}
 
