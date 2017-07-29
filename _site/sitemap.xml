@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  
+	
+  <url><loc>http://localhost:4000/about/</loc></url>
+	 
+  
+	
+  <url><loc>http://localhost:4000/contact/</loc></url>
+	 
+  
+	
+  <url><loc>http://localhost:4000/</loc></url>
+	 
+  
+	
+  
+	
+  <url><loc>http://localhost:4000/blog/index.html</loc></url>
+	 
+  
+	
+  <url><loc>http://localhost:4000/blog/page/2/index.html</loc></url>
+	 
+  
+	
+  <url><loc>http://localhost:4000/blog/page/3/index.html</loc></url>
+	 
+  
+	
+  <url><loc>http://localhost:4000/blog/page/4/index.html</loc></url>
+	 
+  
+	
+  
+
+  
+<url><loc>http://localhost:4000/my-third-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-tenth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-sixth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-seventh-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-ninenth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-fifth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-eleventh-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-eighth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-fourth-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-second-post.html</loc></url>
+  
+<url><loc>http://localhost:4000/my-first-post.html</loc></url>
+  
+  
+</urlset>

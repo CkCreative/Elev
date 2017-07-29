@@ -2,7 +2,8 @@
 title: My Fifth Post My Fifth Post My Fifth Post
 layout: singlepost
 permalink: /:title.html
-
+date: 2015-07-18 12:30:18
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus.
 ---
 <h1>Anything here</h1>
 

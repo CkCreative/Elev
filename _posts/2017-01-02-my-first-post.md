@@ -1,9 +1,12 @@
 ---
 title: My First Post
+date: 2015-07-18 12:30:18
 layout: singlepost
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus.
 permalink: /:title.html
 ---
 <img src="/images/photo-1486688680290-be46662593bd.jpg">
+# Lorem ipsum dolor sit amet
 <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
 
 <div class="clearfix">

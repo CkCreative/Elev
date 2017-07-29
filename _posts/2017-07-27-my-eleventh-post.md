@@ -1,8 +1,12 @@
 ---
 title: My Eleventh Post
 layout: singlepost
+date: 2015-07-18 12:30:18
 permalink: /:title.html
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus.
 ---
+# Lorem ipsum dolor sit amet
+
 <img src="/images/photo-1486688680290-be46662593bd.jpg">
 <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>
 

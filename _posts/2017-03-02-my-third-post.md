@@ -1,9 +1,12 @@
 ---
 title: My Third Post
+
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, <!--more-->blanditiis est quisquam doloribus.
 layout: singlepost
 permalink: /:title.html
 
 ---
+# Lorem ipsum dolor sit amet
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p><!--more-->
 <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</p>

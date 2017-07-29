@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-29T00:57:50+03:00</updated><id>http://localhost:4000/</id><title type="html">Elevatica Enterprises</title><entry><title type="html">My Tenth Post</title><link href="http://localhost:4000/my-tenth-post.html" rel="alternate" type="text/html" title="My Tenth Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-tenth-post</id><content type="html" xml:base="http://localhost:4000/my-tenth-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-29T03:08:43+03:00</updated><id>http://localhost:4000/</id><title type="html">Elevatica Enterprises</title><entry><title type="html">My Third Post</title><link href="http://localhost:4000/my-third-post.html" rel="alternate" type="text/html" title="My Third Post" /><published>2017-03-02T00:00:00+03:00</published><updated>2017-03-02T00:00:00+03:00</updated><id>http://localhost:4000/my-third-post</id><content type="html" xml:base="http://localhost:4000/my-third-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
+
+&lt;div class=&quot;clearfix&quot;&gt;
+
+	&lt;div class=&quot;col_half tleft&quot;&gt;&lt;a href=&quot;/my-tenth-post.html&quot; data-animate=&quot;tada&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;&lt;i class=&quot;icon-line-arrow-left&quot;&gt;&lt;/i&gt;&lt;span&gt;Previous Post&lt;/span&gt;&lt;/a&gt; 
+	&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Tenth Post</title><link href="http://localhost:4000/my-tenth-post.html" rel="alternate" type="text/html" title="My Tenth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-tenth-post</id><content type="html" xml:base="http://localhost:4000/my-tenth-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -7,9 +21,14 @@
 	&lt;/div&gt;
 
 
+	&lt;div class=&quot;col_half col_last tright&quot;&gt;
+		&lt;a href=&quot;/my-third-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Sixth Post</title><link href="http://localhost:4000/my-sixth-post.html" rel="alternate" type="text/html" title="My Sixth Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-sixth-post</id><content type="html" xml:base="http://localhost:4000/my-sixth-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Sixth Post</title><link href="http://localhost:4000/my-sixth-post.html" rel="alternate" type="text/html" title="My Sixth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-sixth-post</id><content type="html" xml:base="http://localhost:4000/my-sixth-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -24,7 +43,8 @@
 
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My 7th Post</title><link href="http://localhost:4000/my-seventh-post.html" rel="alternate" type="text/html" title="My 7th Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-seventh-post</id><content type="html" xml:base="http://localhost:4000/my-seventh-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My 7th Post</title><link href="http://localhost:4000/my-seventh-post.html" rel="alternate" type="text/html" title="My 7th Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-seventh-post</id><content type="html" xml:base="http://localhost:4000/my-seventh-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -39,7 +59,8 @@
 
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Ninenth Post</title><link href="http://localhost:4000/my-ninenth-post.html" rel="alternate" type="text/html" title="My Ninenth Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-ninenth-post</id><content type="html" xml:base="http://localhost:4000/my-ninenth-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Ninenth Post</title><link href="http://localhost:4000/my-ninenth-post.html" rel="alternate" type="text/html" title="My Ninenth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-ninenth-post</id><content type="html" xml:base="http://localhost:4000/my-ninenth-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -54,7 +75,7 @@
 
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Fifth Post My Fifth Post My Fifth Post</title><link href="http://localhost:4000/my-fifth-post.html" rel="alternate" type="text/html" title="My Fifth Post My Fifth Post My Fifth Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-fifth-post</id><content type="html" xml:base="http://localhost:4000/my-fifth-post.html">&lt;h1&gt;Anything here&lt;/h1&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Fifth Post My Fifth Post My Fifth Post</title><link href="http://localhost:4000/my-fifth-post.html" rel="alternate" type="text/html" title="My Fifth Post My Fifth Post My Fifth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-fifth-post</id><content type="html" xml:base="http://localhost:4000/my-fifth-post.html">&lt;h1&gt;Anything here&lt;/h1&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -80,7 +101,9 @@
 		&lt;a href=&quot;/my-ninenth-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
 	&lt;/div&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Anything here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Eleventh Post</title><link href="http://localhost:4000/my-eleventh-post.html" rel="alternate" type="text/html" title="My Eleventh Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-eleventh-post</id><content type="html" xml:base="http://localhost:4000/my-eleventh-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Anything here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Eleventh Post</title><link href="http://localhost:4000/my-eleventh-post.html" rel="alternate" type="text/html" title="My Eleventh Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-eleventh-post</id><content type="html" xml:base="http://localhost:4000/my-eleventh-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -95,7 +118,9 @@
 
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Eigth Post</title><link href="http://localhost:4000/my-eighth-post.html" rel="alternate" type="text/html" title="My Eigth Post" /><published>2017-07-27T00:00:00+03:00</published><updated>2017-07-27T00:00:00+03:00</updated><id>http://localhost:4000/my-eighth-post</id><content type="html" xml:base="http://localhost:4000/my-eighth-post.html">&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Eigth Post</title><link href="http://localhost:4000/my-eighth-post.html" rel="alternate" type="text/html" title="My Eigth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-eighth-post</id><content type="html" xml:base="http://localhost:4000/my-eighth-post.html">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet&quot;&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/photo-1486688680290-be46662593bd.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, &lt;!--more--&gt;blanditiis est quisquam doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -110,7 +135,7 @@
 
 &lt;/div&gt;
 &lt;div class=&quot;fb-comments&quot; data-href=&quot;https://elevatika.com/my-first-post&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Fourth Post</title><link href="http://localhost:4000/my-fourth-post.html" rel="alternate" type="text/html" title="My Fourth Post" /><published>2017-07-25T00:00:00+03:00</published><updated>2017-07-25T00:00:00+03:00</updated><id>http://localhost:4000/my-fourth-post</id><content type="html" xml:base="http://localhost:4000/my-fourth-post.html">&lt;h1&gt;This is a Great Heading&lt;/h1&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt,</summary></entry><entry><title type="html">My Fourth Post</title><link href="http://localhost:4000/my-fourth-post.html" rel="alternate" type="text/html" title="My Fourth Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-fourth-post</id><content type="html" xml:base="http://localhost:4000/my-fourth-post.html">&lt;h1&gt;This is a Great Heading&lt;/h1&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -128,7 +153,7 @@
 
 &lt;div class=&quot;clearfix&quot;&gt;
 
-	&lt;div class=&quot;col_half tleft&quot;&gt;&lt;a href=&quot;/my-third-post.html&quot; data-animate=&quot;tada&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;&lt;i class=&quot;icon-line-arrow-left&quot;&gt;&lt;/i&gt;&lt;span&gt;Previous Post&lt;/span&gt;&lt;/a&gt; 
+	&lt;div class=&quot;col_half tleft&quot;&gt;&lt;a href=&quot;/my-second-post.html&quot; data-animate=&quot;tada&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;&lt;i class=&quot;icon-line-arrow-left&quot;&gt;&lt;/i&gt;&lt;span&gt;Previous Post&lt;/span&gt;&lt;/a&gt; 
 	&lt;/div&gt;
 
 
@@ -136,22 +161,7 @@
 		&lt;a href=&quot;/my-eighth-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
 	&lt;/div&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a Great Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Third Post</title><link href="http://localhost:4000/my-third-post.html" rel="alternate" type="text/html" title="My Third Post" /><published>2017-03-02T00:00:00+03:00</published><updated>2017-03-02T00:00:00+03:00</updated><id>http://localhost:4000/my-third-post</id><content type="html" xml:base="http://localhost:4000/my-third-post.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix&quot;&gt;
-
-	&lt;div class=&quot;col_half tleft&quot;&gt;&lt;a href=&quot;/my-second-post.html&quot; data-animate=&quot;tada&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;&lt;i class=&quot;icon-line-arrow-left&quot;&gt;&lt;/i&gt;&lt;span&gt;Previous Post&lt;/span&gt;&lt;/a&gt; 
-	&lt;/div&gt;
-
-
-	&lt;div class=&quot;col_half col_last tright&quot;&gt;
-		&lt;a href=&quot;/my-fourth-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-	&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Second Post</title><link href="http://localhost:4000/my-second-post.html" rel="alternate" type="text/html" title="My Second Post" /><published>2017-02-02T00:00:00+03:00</published><updated>2017-02-02T00:00:00+03:00</updated><id>http://localhost:4000/my-second-post</id><content type="html" xml:base="http://localhost:4000/my-second-post.html">&lt;h1&gt;This is a beautiful heading IMO&lt;/h1&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a Great Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry><entry><title type="html">My Second Post</title><link href="http://localhost:4000/my-second-post.html" rel="alternate" type="text/html" title="My Second Post" /><published>2015-07-18T15:30:18+03:00</published><updated>2015-07-18T15:30:18+03:00</updated><id>http://localhost:4000/my-second-post</id><content type="html" xml:base="http://localhost:4000/my-second-post.html">&lt;h1&gt;This is a beautiful heading IMO&lt;/h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;div class=&quot;clearfix&quot;&gt;
@@ -161,7 +171,7 @@
 
 
 	&lt;div class=&quot;col_half col_last tright&quot;&gt;
-		&lt;a href=&quot;/my-third-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;/my-fourth-post.html&quot; data-scrollto=&quot;#section-pricing&quot; class=&quot;button button-border button-xlarge nobottommargin&quot;&gt;Next Post&lt;span&gt;&lt;i class=&quot;icon-line-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
 	&lt;/div&gt;
 
 &lt;/div&gt;</content><author><name></name></author><summary type="html">This is a beautiful heading IMO Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus.</summary></entry></feed>
