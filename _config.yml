@@ -1,6 +1,7 @@
 name: Elevatika
 title: Elevatika Enterprises
 root: https://CkCreative.github.io/Elev/
+baseurl: https://CkCreative.github.io/Elev/
 permalink: pretty
 excerpt_separator: <!--more-->
 gems:
