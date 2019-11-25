@@ -48,8 +48,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="{{ site.url }}/images/logo-dark.png"><img src="{{ site.url }}/images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="{{ site.url }}/images/logo-dark@2x.png"><img src="{{ site.url }}/images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="{{ site.baseurl }}/images/logo-dark.png"><img src="{{ site.url }}/images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="{{ site.baseurl }}/images/logo-dark@2x.png"><img src="{{ site.url }}/images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -57,16 +57,16 @@
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="index"><div>Home</div><span>Welcome!</span></a>
+							<li class="current"><a href="/Elev/index"><div>Home</div><span>Welcome!</span></a>
 								
 							</li>
-							<li><a href="/about"><div>About</div><span>Who we are</span></a>
+							<li><a href="/Elev/about"><div>About</div><span>Who we are</span></a>
 								
 							</li>
-							<li class="mega-menu"><a href="/blog"><div>Blog</div><span>Must read</span></a>
+							<li class="mega-menu"><a href="/Elev/blog"><div>Blog</div><span>Must read</span></a>
 								
 							</li>
-							<li class="mega-menu"><a href="/contact"><div>Contact Us</div><span>Lets talk</span></a>
+							<li class="mega-menu"><a href="/Elev/contact"><div>Contact Us</div><span>Lets talk</span></a>
 								
 							
 						</ul>
@@ -84,7 +84,7 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('{{ site.url }}/images/slider/swiper/1.png');">
+						<div class="swiper-slide dark" style="background-image: url('{{ site.baseurl }}/images/slider/swiper/1.png');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">ELEVATE YOUR BUSINESS</h2>
@@ -92,7 +92,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide dark" style="background-image: url('/images/slider/swiper/2.png');">
+						<div class="swiper-slide dark" style="background-image: url('{{ site.baseurl }}/images/slider/swiper/2.png');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">RIGHT EVERY TIME</h2>
@@ -100,7 +100,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('{{ site.url }}/images/slider/swiper/3.png'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('{{ site.baseurl }}/images/slider/swiper/3.png'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Strong Footprint</h2>
